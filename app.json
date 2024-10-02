@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Practice",
+    "slug": "practice",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kamryncorley.practice"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kamryncorley.practice"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ae97e26-37ea-4d1b-a223-421f5d6b155c"
+      }
+    },
+    "owner": "kamryncorley",
+    "updates": {
+      "url": "https://u.expo.dev/2ae97e26-37ea-4d1b-a223-421f5d6b155c"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
